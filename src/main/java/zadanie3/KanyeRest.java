@@ -22,7 +22,7 @@ public class KanyeRest {
 		String quote = thequote.getQuote();
 		
 		if(kanyeQuotes.size()==122) {
-			return "Sorry, there are no new quotes";
+			return "Sorry, there aren't any new quotes";
 		} else if(kanyeQuotes.contains(quote)) {
 			return getQuote();
 		} else {

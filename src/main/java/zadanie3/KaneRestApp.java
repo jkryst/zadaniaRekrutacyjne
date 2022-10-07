@@ -13,21 +13,25 @@ public class KaneRestApp {
 		context.close();
 		
 		Scanner sc = new Scanner(System.in);
-		System.out.println("To read the next Kanye quote type 'next', to exit type 'ext':");
+	
+		System.out.println("Welcome to Kanye's quotes reader!");
+		System.out.println(rest.getQuote());
 		
 		while(true) {
-		String command = sc.next();
-		if (command.equals("next")) {
-		System.out.println(rest.getQuote());
-		} else if (command.equals("exit")) {
-		System.out.println("Exiting the programme!");
-		break;
-		} 
+		   
+		   System.out.println("To see the next random Kanye's quote type 'next', to exit type 'exit':");	
+		   String command = sc.next();
+		   
+		   if (command.equals("next")) {
+	 	      System.out.println(rest.getQuote());
+		      } else if (command.equals("exit")) {
+		      System.out.println("Exiting the programme!");
+		      break;
+		      } 
 		}
 		
 		sc.close();
 		System.exit(0);
-
 	}
 
 }
