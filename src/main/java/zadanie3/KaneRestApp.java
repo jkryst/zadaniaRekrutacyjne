@@ -24,10 +24,10 @@ public class KaneRestApp {
 		   
 		   if (command.equals("next")) {
 	 	      System.out.println(rest.getQuote());
-		      } else if (command.equals("exit")) {
+		   } else if (command.equals("exit")) {
 		      System.out.println("Exiting the programme!");
 		      break;
-		      } 
+		   } 
 		}
 		
 		sc.close();
