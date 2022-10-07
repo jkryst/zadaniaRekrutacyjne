@@ -1,0 +1,10 @@
+1.A. W jakim celu używa się klas abstrakcyjnych, a w jakim interfejsów?
+
+Klas abstrakcyjnych używa się w celu stworzenia nadklasy, która może mieć zarówno metody abstrakcyjne - jedynie
+zadeklarowane i implementowane w klasach dziedziczących, jak i metody już istniejące. Klasa abstrakcyjna, jak każda inna 
+klasa możę mieć również zmienne instancyjne. Każda klasa może dziedziczyć tylko jedną klasę, w tym także abstrakcyjną. 
+
+Interfejsy używane są przede wszystkim w celu stworzenia zestawu abstrakcyjnych metod, które w całości są definiowane 
+przez klasy implementujące. Interfejsy nie posiadają zmiennych instancyjnych, ale mogą się w nich pojawić
+stałe i metody statyczne. Możliwe jest też dodanie do interfejsu również metod domyślnych (oznaczonych słowem default), które
+w klasach implementujacyh już nie muszą być definiowane. Ponadto każda klasa może implementować dowolnie wiele interfejsów.

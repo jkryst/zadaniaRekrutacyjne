@@ -1,0 +1,5 @@
+1.B. Czym różni się tablica od listy liniowej?
+
+Tablica od listy liniowej różni się przede wszystkim niezmiennością rozmaiaru, który w przypadku tablicy zawsze musi być 
+określony przy jej deklaracji. W przypadku listy, niezależnie od konkretnej implementacji, jej rozmiar jest dynamiczny
+i domyślnie zerowy. Dopiero dodawanie i usuwanie kolejnych elementów zmienia jej rozmiar.
